@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: auto;
+
+    box-sizing: border-box;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.navbar-brand{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1;
+    margin-right: 2.5;
+    margin-left: -5;
+
+}

@@ -1,0 +1,228 @@
+.yummy h1 {
+    color: black;
+    font-weight: 900;
+}
+
+.navbutton button {
+    color: aliceblue;
+    background-color: #ce1212;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border-color: #ce1212;
+}
+
+.navbutton button:hover {
+    background-color: aliceblue;
+    color: #ce1212;
+    border-color: #ce1212;
+}
+
+.mainall {
+    background-color: #EEEEEE;
+    padding: 50px;
+}
+
+.mainin {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mainin .pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22%;
+    margin-top: 65px;
+
+}
+
+.mainin .pic:hover {
+    transform: scale(1.2);
+}
+
+.paragraph h1 {
+    color: #ce1212;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.paragraph p {
+    color: grey;
+    font-size: 28px;
+}
+
+.button .btn {
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: #ce1212;
+    margin-left: 12%;
+    margin-top: 15px;
+    border-color: #ce1212;
+}
+
+.button .buttonn:hover {
+    color: #ce1212;
+    background-color: aliceblue;
+    border-color: #ce1212;
+}
+
+.abouthead h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7f7f90;
+    text-align: center;
+    margin-top: 6%;
+
+}
+
+.learnmore {
+    display: flex;
+    margin-left: 39%;
+}
+
+.learnmore .moreabout {
+    color: #ce1212;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.twopics {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.twopics .picone {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+
+}
+
+.twopics .picone img {
+    margin-left: 80px;
+}
+
+
+.twopics .picone img:hover {
+    transform: scale(1.1);
+}
+
+.twopics .picone .two {
+    max-width: 70%;
+    margin-left: 38%;
+}
+
+.twopics .picone .one {
+    max-width: 57%;
+    margin-left: 25%;
+}
+
+.twopics .picone .three {
+    max-width: 57%;
+    margin-left: 58%;
+
+}
+
+.sectiontwo {
+    margin-top: 6%;
+}
+
+.twopics .picone .mesgo {
+    margin-left: 25%;
+}
+
+.twopics .picone .mesgtw {
+    margin-left: 38%;
+}
+
+.twopics .picone .mesgth {
+    margin-left: 60%;
+}
+
+/*animation */
+
+.slide-u{
+    animation: FadeIn linear 1s;
+}
+
+@keyframes FadeIn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: Fade linear 5s;
+}
+
+@keyframes Fade {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.slide-I{
+    animation: SlideIn linear 3s;
+}
+
+@keyframes SlideIn {
+    0%{
+        transform: translateY(-500%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.slide-In{
+    animation: slidein linear 3.3s;
+}
+
+@keyframes slidein {
+    0%{
+        transform: translateY(-500%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.slide-Inn{
+    animation: Slide linear 3.6s;
+}
+
+@keyframes Slide {
+    0%{
+        transform: translateY(-500%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
